@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact - SoundLoop music website">
+  <title>Contact | SoundLoop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="brand">SoundLoop</div>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="listen.html">Listen</a>
+      <a href="playlists.html">Playlists</a>
+      <a href="genres.html">Genres</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </header>
+  <main><section class="panel"><p>WE'D LIKE TO HEAR FROM YOU</p><h1>Contact SoundLoop</h1><p>Use this sample form to share a question, suggestion, or comment about the website.</p>
+      <form id="contact-form" class="contact-form">
+        <label for="name">Name</label><input id="name" name="name" type="text" placeholder="Enter your name" required>
+        <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="Enter your email" required>
+        <label for="subject">Subject</label><input id="subject" name="subject" type="text" placeholder="What is this about?" required>
+        <label for="message">Message</label><textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+        <button class="button" type="submit">Submit feedback</button>
+        <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+      </form>
+      <p class="small-note">Class project demo: this form checks that all fields are filled in, but it does not send or store messages.</p>
+    </section>
+    <script>
+      document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        document.getElementById('form-status').textContent = 'Thanks! Your sample form was completed. Messages are not sent or stored by this demo.';
+        this.reset();
+      });
+    </script></main>
+  <footer>SoundLoop student website project</footer>
+</body>
+</html>
