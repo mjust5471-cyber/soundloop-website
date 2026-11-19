@@ -1,0 +1,13 @@
+SOUNDLOOP — SITE MAP
+
+                 HOME (index.html)
+                    /       \
+                   /         \
+      LISTEN (listen.html)  ABOUT (about.html)
+
+Main navigation appears on all three pages:
+Home | Listen | About
+
+Assets:
+- styles.css
+- assets/soundloop.mp3
