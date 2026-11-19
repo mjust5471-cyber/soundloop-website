@@ -1,0 +1,29 @@
+SKETCH / WIREFRAME — LISTEN PAGE (the page that uses a table)
+
++------------------------------------------------------+
+| SoundLoop                                             |
+| Home       Listen       About                         |
++------------------------------------------------------+
+|                                                      |
+|  FEATURED AUDIO                                      |
+|  Listen to the sound loop                            |
+|  Short instructions for the visitor                  |
+|                                                      |
+|  +-----------------------------------------------+   |
+|  | [ Play ] ======= progress ======= [ Volume ]  |   |
+|  +-----------------------------------------------+   |
+|                                                      |
+|  Audio player controls                               |
+|  +----------------------+-----------------------+   |
+|  | Control              | What it does          |   |
+|  +----------------------+-----------------------+   |
+|  | Play / Pause         | Starts or pauses       |   |
+|  | Progress bar         | Shows / moves playback|   |
+|  | Volume               | Changes volume        |   |
+|  +----------------------+-----------------------+   |
+|                                                      |
++------------------------------------------------------+
+|                 SoundLoop footer                     |
++------------------------------------------------------+
+
+The table is the two-column "Audio player controls" section.
