@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Listen - SoundLoop music website">
   <title>Listen | SoundLoop</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -12,32 +13,21 @@
     <nav aria-label="Main navigation">
       <a href="index.html">Home</a>
       <a href="listen.html" aria-current="page">Listen</a>
+      <a href="playlists.html">Playlists</a>
+      <a href="genres.html">Genres</a>
       <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
     </nav>
   </header>
-  <main>
-    <section class="panel">
-      <p>FEATURED AUDIO</p>
-      <h1>Listen to the sound loop</h1>
+  <main><section class="panel">
+      <p>FEATURED AUDIO</p><h1>Listen to the sound loop</h1>
       <p>Use the controls below to start, pause, adjust the volume, or move through the audio.</p>
-      <div class="audio-box">
-        <audio controls preload="metadata">
-          <source src="assets/soundloop.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-      <p><small>Upload the supplied audio file to <strong>assets/soundloop.mp3</strong> for playback to work.</small></p>
+      <div class="audio-box"><audio controls preload="metadata"><source src="assets/soundloop.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio></div>
+      <p><small>To play your own audio, upload the MP3 file to <strong>assets/soundloop.mp3</strong> in the repository.</small></p>
     </section>
-    <section class="panel" style="margin-top:1.4rem">
-      <h2>Audio player controls</h2>
-      <table>
-        <tr><th>Control</th><th>What it does</th></tr>
-        <tr><td>Play / Pause</td><td>Starts or pauses the audio.</td></tr>
-        <tr><td>Progress bar</td><td>Shows playback progress and lets the visitor seek.</td></tr>
-        <tr><td>Volume</td><td>Changes the playback volume.</td></tr>
-      </table>
-    </section>
-  </main>
+    <section class="panel" style="margin-top:1.4rem"><h2>Audio player controls</h2>
+      <table><tr><th>Control</th><th>What it does</th></tr><tr><td>Play / Pause</td><td>Starts or pauses the audio.</td></tr><tr><td>Progress bar</td><td>Shows playback progress and lets you seek.</td></tr><tr><td>Volume</td><td>Changes playback volume.</td></tr></table>
+    </section></main>
   <footer>SoundLoop student website project</footer>
 </body>
 </html>
