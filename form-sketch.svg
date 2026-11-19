@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1050" viewBox="0 0 900 1050">
+<rect width="900" height="1050" fill="#f6f5fb"/><rect x="70" y="55" width="760" height="940" rx="24" fill="white" stroke="#d9d4ec" stroke-width="3"/>
+<rect x="70" y="55" width="760" height="130" rx="24" fill="#1c2140"/><text x="110" y="120" font-family="Arial" font-size="42" font-weight="bold" fill="white">SoundLoop</text><text x="110" y="158" font-family="Arial" font-size="19" fill="#e7e3ff">Home | Listen | Playlists | Genres | About | Contact</text>
+<text x="115" y="255" font-family="Arial" font-size="38" font-weight="bold" fill="#172033">Contact / Feedback Form</text><text x="115" y="300" font-family="Arial" font-size="20" fill="#5d6880">Share a question, suggestion, or comment.</text>
+<g font-family="Arial" font-size="22" fill="#172033"><text x="115" y="375">Name</text><text x="115" y="495">Email Address</text><text x="115" y="615">Subject</text><text x="115" y="735">Message</text></g>
+<g fill="white" stroke="#aaa4c2" stroke-width="2"><rect x="115" y="395" width="670" height="65" rx="10"/><rect x="115" y="515" width="670" height="65" rx="10"/><rect x="115" y="635" width="670" height="65" rx="10"/><rect x="115" y="755" width="670" height="145" rx="10"/></g>
+<g font-family="Arial" font-size="18" fill="#9992ad"><text x="140" y="435">Enter your name</text><text x="140" y="555">Enter your email</text><text x="140" y="675">Enter subject</text><text x="140" y="795">Write your message here...</text></g>
+<rect x="115" y="925" width="190" height="52" rx="10" fill="#7357d8"/><text x="153" y="959" font-family="Arial" font-size="21" font-weight="bold" fill="white">Submit</text>
+</svg>
